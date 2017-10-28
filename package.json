@@ -1,0 +1,14 @@
+{
+  "name": "timeservice",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp Timeservice Challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff Button",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

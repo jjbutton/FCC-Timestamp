@@ -1,9 +1,14 @@
 const express = require("express");
 const app = express();
 
+
 app.get("/", function (req, res) {
+    // console.log(req);
+    console.log('header', req.headers);
     res.sendFile(process.cwd() + "/index.html");
 });
+
+console.log("header", app.get("user-agent"));
 
 // Route for input
 app.get("/:input", function (req, res) {
